@@ -1,0 +1,8 @@
+{
+  "name": "mnwaproxy",
+  "version": "0.0.1",
+  "description": "Proxy from Mnwa for you",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
+}
