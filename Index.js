@@ -4,4 +4,4 @@ var http = require('http'),
 
 app = require('./lib/proxy.js')(app);
 
-var server = require('./lib/server.js')(http, app, 8003);
+var server = require('./lib/server.js')(http, app, 8080);
