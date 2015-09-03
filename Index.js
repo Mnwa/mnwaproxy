@@ -12,6 +12,7 @@ if (cluster.isMaster) {
 	}
 
 	cluster.on('exit', function (worker, code, signal) {
+		console.error(" Process will be killed\n Error: %d\n %s\n", code, signal);
 		cluster.fork();
 	});
 } else {
