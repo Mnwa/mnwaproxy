@@ -1,8 +1,22 @@
 {
-  "name": "mnwaproxy",
-  "version": "0.0.1",
-  "description": "Proxy from Mnwa for you",
-  "dependencies": {
-    "express": "^4.12.4"
-  }
+    "name": "mnwaproxy",
+    "version": "1.0.0",
+    "description": "Proxy from Mnwa for you",
+    "author": "Mnwa mihan@panfilov.biz",
+    "main": "Index.js",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Mnwa/mnwaproxy"
+    },
+    "bugs": {
+        "url": "https://github.com/Mnwa/mnwaproxy/issues"
+    },
+        "dependencies": {
+        "body-parser": "^1.14.1",
+        "cookie-parser": "^1.4.0",
+        "express": "^4.13.3",
+        "express-flash": "0.0.2",
+        "express-session": "^1.12.1"
+    }
 }
