@@ -18,5 +18,8 @@
         "express": "^4.13.3",
         "express-flash": "0.0.2",
         "express-session": "^1.12.1"
+    },
+    "scripts": {
+        "start": "nodemon Index.js"
     }
 }
