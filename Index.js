@@ -10,12 +10,12 @@ var http = require('http'),
     'use strict'
     if (cluster.isMaster) {
         for (var i = 0; i < numCPUs + 1; i++) {
-            console.log(`Start server ${i}`)
+            console.log(`Start server ${i}`);
             cluster.fork();
         }
         cluster.on('exit', function (worker, code, signal) {
             console.error(" Process will be killed\n Error: %d\n %s\n", code, signal);
-            console.log(`Start server ${i++}`)
+            console.log(`Start server ${i++}`);
             cluster.fork();
         });
     } else {
